@@ -1,0 +1,242 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right;
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left;
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+	width: 960px;
+	margin: auto;
+}
+
+header {
+  clear: both;
+  width: 100%;
+  height: 600px;
+  background-image: url("http://www.hogermma.com/file/2017/04/mmafight.jpg");
+  background-position: center;
+  background-size: cover;
+  color: white;
+
+
+}
+
+header nav{
+
+  width: 100%;
+  display: inline-block;
+
+
+}
+header ul li{
+  display: inline-block;
+  width: 6%;
+  float: left;
+}
+
+header img{
+  float: left;
+  width:5%;
+  height: 40px;
+  margin-left: 405px;
+}
+
+header button{
+  float: left;
+  margin-left:500px;
+}
+header h1{
+  text-align: center;
+  font-size: xx-large;
+  margin-top: 188px;
+}
+header p{
+  text-align: center;
+  margin: 0 auto;
+  width: 60%;
+  font-size: large;
+}
+
+ header span {
+   display: block;
+  margin: 50px auto;
+  text-align: center;
+  font-size: large;
+
+}
+ header + section > h2{
+   margin: 0 auto;
+   text-align: center;
+   margin-top: 125px;
+ }
+
+ header + section > p{
+   text-align: center;
+   margin: 40px auto;
+   width: 60%;
+   font-size: large;
+ }
+
+ header + section {
+   clear: both;
+ }
+
+ .top + section {
+   width: 100%;
+   background-color: #a9a9a9;
+
+
+ }
+section div{
+  width: 50%;
+  float: left;
+  background: #a9a9a9;
+}
+
+div img {
+  margin: 60px 0 0 120px;
+  width: 60%;
+  height: 200px;
+}
+
+div h3{
+  text-align: center;
+  margin: 0 auto;
+}
+
+div p {
+  text-align: center;
+  margin: 0 auto;
+  width: 60%;
+}
+div h4 {
+  text-align: center;
+  margin: 60px auto;
+  width: 15%;
+}
+
+
+
+
+.middle + section h2 {
+  text-align: center;
+  margin: 53px auto;
+  padding-top: 3%;
+
+
+}
+
+.middle + section > p {
+  text-align: center;
+  margin: 40px auto;
+  width: 60%;
+  font-size: large;
+}
+
+.middle + section > h4 {
+
+text-align: center;
+margin: 40px auto;
+width: 15%;
+}
+
+.feet {
+  background-color: black;
+  color: white;
+}
+
+.feet section{
+  width: 50%;
+  float: left;
+}
+.feet h5{
+  color: #a9a9a9;
+
+}
+.feet section ul{
+  margin-left: -30px;
+
+}
+
+.feet section ul li{
+  display: inline-block;
+  list-style-type: none;
+
+
+}
+
+.feet section h4, .feet section span{
+  margin-left: 410px;
+}
+
+.feet section span + h5{
+  margin-left: 410px;
+}
+
+.feet .yurp{
+  width: 100%;
+  float: left;
+  border-top: 1px solid grey;
+  border-spacing: 50px;
+}
+
+.yurp p  {
+  float: left;
+  width: 93%;
+}
+
+.yurp img{
+  width:5%;
+  height: 30px;
+  float: left;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

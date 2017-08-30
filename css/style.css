@@ -1,0 +1,310 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right;
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left;
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+     margin: 0 auto;
+
+     font-family: courier;
+
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+	width: 960px;
+	margin: auto;
+}
+
+header ul li{
+  display: inline-block;
+  font-size: x-large;
+  color: white;
+  margin-left: 160px;
+  font-style: italic;
+  font-weight: 300;
+  margin-top: 30px;
+}
+
+header, footer{
+  background-color: #00BFFF;
+  color: white;
+  clear: both;
+  height: 100px;
+
+}
+section .pic img {
+  height: 335px;
+  border-radius: 150px;
+  margin-left: 212px;
+  margin-top: 50px;
+
+}
+
+section .pic , section .blurb{
+  float: left;
+  margin-top: 1px;
+  background-color: white;
+  height: 530px;
+}
+
+.clearfix {
+  border-bottom: .5px solid grey;
+}
+
+.two {
+  border-bottom: .5px solid grey;
+}
+
+.pic , .blurb{
+  width: 50%;
+}
+
+.blurb p::first-letter{
+
+}
+
+.blurb p{
+  font-weight: 600;
+  font-size: large;
+}
+
+h1 {
+  text-align: center;
+  font-size: xx-large;
+  font-family: 'Playfair Display', serif;
+  color: #00BFFF;
+}
+
+h2 {
+ text-align: center;
+ font-size: xx-large;
+ font-family: 'Playfair Display', serif;
+ text-decoration: underline;
+}
+
+section .projects{
+  float: left;
+  margin-top: .5px;
+  background-color: #DCDCDC;
+}
+
+
+section .projects span {
+  border: 1px solid white;
+  width: 40%;
+  float: left;
+  height: 90px;
+  border-radius: 15px;
+  text-align: center;
+  margin: 45px;
+  padding-top: 35px;
+  font-weight: 700;
+  font-size: large;
+  box-shadow: 10px 10px 50px 20px grey inset;
+  color: white;
+  background-color: 	#F0F8FF;
+}
+
+section .projects span:hover {
+  color: #00BFFF;
+}
+
+section .resume img{
+  width: 95%;
+  height: 1300px;
+  margin-top: -95px;
+  padding: 100px;
+}
+
+.clearfix a {
+  padding: 5px;
+  margin-left: 3px;
+
+}
+
+
+
+
+a + ul {
+  float: right;
+  list-style-type: none;
+  margin-right: 70px;
+}
+
+
+
+
+
+/*
+header {
+clear: both;
+border:1px solid black;
+width: 100%;
+background-color: #424a42 ;
+
+}
+
+
+h1{
+  margin: 35px auto;
+  text-align: center;
+  color: white;
+  font-size: x-large;
+
+
+}
+h2{
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+}
+.blurb h2 {
+
+  color: white;
+  margin: 35px auto;
+  text-align: center;
+
+}
+section{
+
+
+  background-color: #D3D3D3;
+
+
+}
+section + h2{
+  color: black;
+}
+.quote{
+  border: 1px solid white;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  width:500px;
+  font-size: large;
+  box-shadow: 10px 5px 5px black;
+  border-radius: 10px;
+}
+.navBar ul{
+    text-align: center;
+}
+.navBar li{
+  display: inline-block;
+  color: white;
+  margin: 0 auto;
+  font-size: x-large;
+  text-align: center;
+  text-decoration-style: wavy;
+  width: 15%;
+
+
+}
+#mid{
+  clear: both;
+}
+
+.pic{
+  width: 40%;
+
+  float: left;
+}
+.pic ul li{
+  font-size: x-large;
+  text-decoration: none;
+  text-shadow:  2px 2px #D3D3D3;
+  list-style-type: none;
+  border-right: 1px solid black;
+
+}
+.blurb{
+  width: 60%;
+
+  float: left;
+
+}
+.blurb p{
+  padding: 20px;
+  font-size: large;
+
+
+}
+
+
+img{
+height: 450px;
+width: 100%;
+padding: 40px;
+border-radius: 200px;
+
+
+}
+#projects{
+  border: black 1px solid;
+  clear: both;
+
+}
+
+#resume h2 {
+  color: white;
+}
+footer{
+  border: 1px solid black;
+  height: 150px;
+  clear: both;
+  background-color: #424a42 ;
+  }
+  footer a i{
+    color: white;
+    margin-left: 10px;
+  }
+}*/
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
